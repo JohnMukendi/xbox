@@ -1,0 +1,179 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card{
+ 
+  display: inline-block;
+  width: 100%;
+  display: none;
+}
+
+.card:hover {
+
+  border:'white 1px solid';
+  display: inline-block;
+  display: block;
+  background-color: lawngreen;
+ 
+}
+
+
+
+.block{
+  transition: all 0.3s ease-in;
+
+  
+}
+
+.block:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 4px solid lightcyan;
+  display: block;
+ 
+  
+}
+
+div .card p{
+  display: none;
+}
+
+div :hover .card{
+  display: block;
+}
+
+.fifa :hover{
+  transform: scale(1);
+  cursor: pointer;
+ background-image: url(../public/fifa.gif);
+ background-size: cover;
+ width: 100%;
+ height: 100%;
+ 
+}
+
+.fifa :hover p{
+  display: inline-block;
+  background-color: lawngreen;
+  display: block;
+  width: 100%;
+  background-size: cover;
+ 
+}
+
+.duty :hover{
+  transform: scale(1);
+  cursor: pointer;
+ background-image: url(../public/duty.gif);
+ background-size: cover;
+ width: 100%;
+ height: 100%;
+ 
+}
+
+.duty :hover p{
+  display: inline-block;
+  background-color: lawngreen;
+  display: block;
+  width: 100%;
+  background-size: cover;
+ 
+}
+
+.fortnite :hover{
+  transform: scale(1);
+  cursor: pointer;
+ background-image: url(../public/fortnite.gif);
+ background-size: cover;
+ width: 100%;
+ height: 100%;
+ 
+}
+
+.fortnite :hover p{
+  display: inline-block;
+  background-color: lawngreen;
+  display: block;
+  width: 100%;
+  background-size: cover;
+ 
+}
+
+.links :hover p{
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.blockg{
+  transition: all 0.3s ease-in;
+}
+
+.blockg:hover{
+ 
+  cursor: pointer;
+  
+  display: block;
+  background-image: url(../public/speed.gif);
+}
+
+.blockgta{
+  transition: all 0.3s ease-in;
+}
+
+.blockgta:hover{
+ 
+  cursor: pointer;
+  
+  display: block;
+  background-image: url(../public/gta.gif);
+}
+
+.blockdbz{
+  transition: all 0.3s ease-in;
+}
+
+.blockdbz:hover{
+ 
+  cursor: pointer;
+  
+  display: block;
+  background-image: url(../public/dbz.webp);
+}
+
+.blockresident{
+  transition: all 0.3s ease-in;
+}
+
+.blockresident:hover{
+ 
+  cursor: pointer;
+  
+  display: block;
+  background-image: url(../public/resident.gif);
+}
+
+.blockspeed{
+  transition: all 0.3s ease-in;
+}
+
+.blockspeed:hover{
+ 
+  cursor: pointer;
+  
+  display: block;
+  background-image: url(../public/fifa.gif);
+}
