@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Banner from './Banner';
-import Gamepass from './gamepass';
 
 
 
@@ -12,7 +11,7 @@ export default function Home() {
    <div>
      <login />
      
-    <Gamepass />
+   {/* <Banner/> */}
     </div>
   )
 }
