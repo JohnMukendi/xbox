@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link';
 import Box from '@mui/material/Box';
- const login = () => {
+
+ const Login = () => {
   return (
     <div style={
         {
@@ -15,7 +16,9 @@ import Box from '@mui/material/Box';
          
         }
     }><Link href="/Banner">
+      <picture>
         <img style={{margin:'15% 0 0 40%'}} src='button.png'  alt='button' />
+      </picture>
      </Link>
      <p style={{color:'white',fontStyle:"italic",margin:'-10% 0 0 35%'}}>P L A Y</p>
      <p style={{color:'white',fontStyle:"italic",margin:'10% 0 0 5%'}}>R E S U M E</p>
@@ -26,4 +29,4 @@ import Box from '@mui/material/Box';
   )
 }
 
-export default login
+export default Login
